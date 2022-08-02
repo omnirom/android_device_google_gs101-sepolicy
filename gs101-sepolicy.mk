@@ -1,3 +1,11 @@
+# twoshay
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
+# google_battery service
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
+
 # sepolicy that are shared among devices using whitechapel
 BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/whitechapel/vendor/google
 
