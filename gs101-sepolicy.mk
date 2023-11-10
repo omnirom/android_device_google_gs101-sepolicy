@@ -26,6 +26,12 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 # sscoredump
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/sscoredump
 
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
+    
 # Public
 PRODUCT_PUBLIC_SEPOLICY_DIRS += device/google/gs101-sepolicy/public
 
