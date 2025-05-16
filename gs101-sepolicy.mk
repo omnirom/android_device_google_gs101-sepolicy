@@ -6,6 +6,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
 
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/vibrator/common
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/vibrator/cs40l26
+
 # sepolicy that are shared among devices using whitechapel
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs101-sepolicy/whitechapel/vendor/google
 
